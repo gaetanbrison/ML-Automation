@@ -40,10 +40,13 @@ def main():
     hide_header_footer()
     
     images = Image.open('images/hi-paris-lancement-ecole-polytechnique-x.png')
-    st.image(images, width=200,caption="Image 'Hi! PARIS' Research Center.")    
-
-    st.markdown("# Data Quality Checker ✅")
-    st.markdown("Check the basic quality of any dataset")
+    st.image(images, width=200,caption="Image 'Hi! PARIS' Research Center.")
+    
+    
+    st.markdown("# Data Quality Check 🔍 ✅")
+    st.markdown("### Check the basic quality of any dataset and generate data reports 🧐")
+    st.markdown("     ")
+    st.error("###### Only upload non confidential data!!")
     st.markdown("---")
 
     st.subheader(" [Read full tutorial at Medium](https://medium.com/@maladeep.upadhaya) |  [Complete code at GitHub](https://github.com/maladeep/data-quality-checker)")
