@@ -169,7 +169,7 @@ def main():
             st.success("Negatively Skew so Mode  >  Median  > Mean")   
 
 
-        st.markdown("---")
+    st.markdown("---")
 
     if st.checkbox('Generate Data Quality Report'):
         st.markdown("We are generating for you a data quality report with the help of Pandas Profiling.")
