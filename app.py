@@ -52,11 +52,12 @@ def main():
     st.markdown("---")
     def file_select(folder='./datasets'):
         filelist=os.listdir(folder)
-        selectedfile=st.selectbox('select a default dataset',filelist)
+        st.markdown("OR")
+        selectedfile=st.selectbox('Select a default dataset',filelist)
         return os.path.join(folder,selectedfile)
 
 
-    if st.checkbox('Select dataset from local machine'):
+    if st.button('Upload Data'):
         data=st.file_uploader('Upload Dataset in .CSV',type=['CSV'])
         if data is not None:
             df=pd.read_csv(data)
