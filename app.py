@@ -4,7 +4,8 @@ import pandas as pd
 import numpy as np
 import matplotlib.pyplot as plt
 import matplotlib
-from PIL import Image 
+from PIL import Image
+from streamlit_pandas_profiling import st_profile_report
 
 
     
