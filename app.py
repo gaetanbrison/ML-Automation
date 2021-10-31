@@ -49,7 +49,6 @@ def main():
     st.error("###### Only upload non confidential data!!")
     st.markdown("---")
 
-    st.subheader(" [Read full tutorial at Medium](https://medium.com/@maladeep.upadhaya) |  [Complete code at GitHub](https://github.com/maladeep/data-quality-checker)")
     st.markdown("---")
     def file_select(folder='./datasets'):
         filelist=os.listdir(folder)
@@ -112,7 +111,6 @@ def main():
        
 
         st.markdown(" > Theoretically, 25 to 30 percent is the maximum missing values are allowed, there’s no hard and fast rule to decide this threshold. It can vary from problem to problem.")
-        st.markdown("[Learn more about handling missing values](https://medium.datadriveninvestor.com/easy-way-of-finding-and-visualizing-missing-data-in-python-bf5e3f622dc5)")
 
     st.markdown("---")   
 
@@ -182,11 +180,11 @@ if __name__=='__main__':
     main()
 
 
-st.markdown(" >  🙏 Thank you for exploring basic dataset quality checker. Feedbacks are highly welcomed.")
-
-
-st.subheader(" [Read full tutorial at Medium](https://medium.com/@maladeep.upadhaya) |  [Complete code at GitHub](https://github.com/maladeep/data-quality-checker)")
-
+st.markdown("   ")
+st.markdown("   ")
+st.markdown("   ")
+st.markdown("   ")
+st.markdown("### 👨🏼‍💻  For more support contact the Engineering Team: engineer@hi-paris.fr  🚀")
 
 
      
