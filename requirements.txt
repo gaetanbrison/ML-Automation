@@ -3,3 +3,4 @@ pandas
 numpy
 matplotlib
 streamlit_pandas_profiling
+pandas_profiling
