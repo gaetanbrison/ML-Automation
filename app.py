@@ -6,6 +6,7 @@ import matplotlib.pyplot as plt
 import matplotlib
 from PIL import Image
 from streamlit_pandas_profiling import st_profile_report
+import pandas_profiling
 
 
     
