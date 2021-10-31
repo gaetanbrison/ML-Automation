@@ -47,7 +47,6 @@ def main():
     st.markdown("### Check the basic quality of any dataset and generate data reports 🧐")
     st.markdown("     ")
     st.error("###### Only upload non confidential data!!")
-    st.markdown("---")
 
     st.markdown("---")
     def file_select(folder='./datasets'):
