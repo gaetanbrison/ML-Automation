@@ -153,11 +153,6 @@ def main():
     #check for normality test
     if st.checkbox('Normality'):
 
-
-        images=Image.open('images/n.png')
-        st.image(images,width=600, caption="Image from ALVARO.")
-
-
         st.markdown("Normality tests are used to determine if a dataset is well-modeled by a normal distribution. For normality test we can use skewness technique which is a quantification of how much a distribution is pushed left or right, a measure of asymmetry in the distribution.")
         aa= pd.DataFrame(df).skew()
         normalityskew= round(aa.mean(),4)
