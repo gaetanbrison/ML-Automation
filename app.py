@@ -170,7 +170,13 @@ def main():
 
         st.markdown("---")
 
+    if st.checkbox('Generate Data Quality Report'):
+        st.markdown("We are generating for you a data quality report with the help of Pandas Profiling.")
+        st.text('In function of the dataset size might take up to 3min')
+        pr = df.profile_report()
+        st_profile_report(pr)
 
+    st.markdown("---")
 
 
     
