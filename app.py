@@ -106,7 +106,7 @@ def main():
            st.success("Looks good! as we have less then 30 percent of missing values.")
            
         else:
-           st.success("Poor data quality due to greater than 30 percent of missing value.")
+           st.error("Poor data quality due to greater than 30 percent of missing value.")
            
        
 
@@ -128,7 +128,7 @@ def main():
            st.success("Looks good! as we have completeness ratio greater than 0.85.")
            
         else:
-           st.success("Poor data quality due to low completeness ratio( less than 0.85).")
+           st.error("Poor data quality due to low completeness ratio( less than 0.85).")
 
     st.markdown("---")
 
