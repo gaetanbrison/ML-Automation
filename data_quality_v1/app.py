@@ -41,7 +41,7 @@ def main():
     # hide the footer 
     hide_header_footer()
 
-    images = Image.open('images/hi-paris-lancement-ecole-polytechnique-x.jpeg')
+    images = Image.open('hi-paris-lancement-ecole-polytechnique-x.jpeg')
     st.image(images, width=200,caption="Image 'Hi! PARIS' Research Center.")
 
     st.markdown("# Data Quality Check 🔍 ✅")
