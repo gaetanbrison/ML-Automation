@@ -39,7 +39,8 @@ def main():
     # hide the footer 
     hide_header_footer()
     
-      
+    images = Image.open('images/hi-paris-lancement-ecole-polytechnique-x.png')
+    st.image(images, width=200,caption="Image 'Hi! PARIS' Research Center.")    
 
     st.markdown("# Data Quality Checker ✅")
     st.markdown("Check the basic quality of any dataset")
