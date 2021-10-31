@@ -40,9 +40,7 @@ def main():
 
     # hide the footer 
     hide_header_footer()
-
-    images = Image.open('hi-paris-lancement-ecole-polytechnique-x.jpeg')
-    st.image(images, width=200,caption="Image 'Hi! PARIS' Research Center.")
+    st.image('hi-paris-lancement-ecole-polytechnique-x.jpeg', width=200,caption="Image 'Hi! PARIS' Research Center.")
 
     st.markdown("# Data Quality Check 🔍 ✅")
     st.markdown("### Check the basic quality of any dataset and generate data reports 🧐")
