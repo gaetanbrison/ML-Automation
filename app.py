@@ -88,7 +88,11 @@ def main():
 
     st.markdown("---")   
  
-   
+    if st.checkbox('Distribution of values'):
+       st.markdown("This is a simple check to see the distribution of values and look for outliers")
+       st.write(df.describe())
+
+    st.markdown("---")
     
     #check for null values
     if st.checkbox('Missing Values'):
