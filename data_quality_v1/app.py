@@ -7,7 +7,6 @@ import streamlit as st
 import pandas as pd
 from streamlit_pandas_profiling import st_profile_report
 
-st.image('logo_sknetwork.jpg', width=200)
 # Main function
 def main():
 
