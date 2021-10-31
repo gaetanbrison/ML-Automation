@@ -8,7 +8,7 @@ from PIL import Image
 import pandas as pd
 from streamlit_pandas_profiling import st_profile_report
 
-
+st.image('hi-paris-lancement-ecole-polytechnique-x.jpeg', width=200)
 # Main function
 def main():
 
@@ -40,7 +40,6 @@ def main():
 
     # hide the footer 
     hide_header_footer()
-    st.image('hi-paris-lancement-ecole-polytechnique-x.jpeg', width=200,caption="Image 'Hi! PARIS' Research Center.")
 
     st.markdown("# Data Quality Check 🔍 ✅")
     st.markdown("### Check the basic quality of any dataset and generate data reports 🧐")
